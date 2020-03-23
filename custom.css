@@ -6,6 +6,7 @@ h1,h2,h3,h4,h5,h6{
   margin: 0;
 }
 
+
 a{
   text-decoration: none;
   color: white;
@@ -49,3 +50,39 @@ body{
   height: 100%;
   z-index: 1;
 }
+
+
+/* -------------------------------------------------------------------------------- */
+/* GRADIENT RGB BUTTON */
+
+#btn-gradient{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #03a9f4, #f44a15, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 30px;
+}
+
+#btn-gradient:hover{
+  animation: animate 8s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 400%;
+  }
+}
+
+/* -------------------------------------------------------------------------------- */
