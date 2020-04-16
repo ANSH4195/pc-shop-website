@@ -21,7 +21,7 @@ a:hover{
   text-decoration: none;
 }
 
-#guide:hover{
+.guide:hover{
   background: orange;
   color: black;
   border-radius: 5px;
@@ -37,6 +37,10 @@ a:hover{
 
 .bg-navbar{
   background: #010102 !important;
+}
+
+.bg-catch{
+  background: orangered !important;
 }
 
 body{
